@@ -118,9 +118,28 @@ font-size: calc(1.4vw + 1.152px); /*24px*/
 font-weight: 400;
 line-height: 166%;
 color: #AAAAAA;
-
-
-
-
 }
   /* Section1 End */
+  /* Section2 Start */
+   .section2_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img {
+    
+    text-align: center; 
+    padding: calc(1.4vw + 1.152px); /*24px*/
+}
+
+.img img {
+    max-width: 100%; 
+    height: auto; 
+}
+.img p {
+    margin-top: calc(0.6vw + -0.752px); /*10px*/
+    text-align: left; 
+}
+
+  /* Section2 End */
