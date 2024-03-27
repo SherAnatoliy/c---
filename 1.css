@@ -1,0 +1,88 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    padding: 0  calc(3.2vw + 3.24px);
+}
+button {
+    border: 0;
+    background-color: white;
+}
+.Contact_Sales{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: flex-end;
+    font-size: calc(0.2vw + 9.312px);
+    font-weight: 400;
+    line-height: 275%;
+    padding-right: calc(1.4vw + 0.808px);
+    gap: calc(1.4vw + 0.808px);
+    background-color:  #F4F4F4;
+    color:  #AAAAAA;
+}
+select{
+    border: 0;
+    background-color:  #F4F4F4;
+    color: #AAAAAA;
+
+
+}
+/* Меню начало*/
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    border-bottom: 1px #E0E0E0 solid;
+    ;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px; /*12px*/
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.container_logo {
+    padding: 25px 0 25px 120px;
+}
+
+.container_link {
+    display: flex;
+    gap: 100px;
+}
+
+.container_logo3 {
+    display: flex;
+    
+}
+
+.container_logo3_1 img {
+    padding: 38px 0 38px 20px;
+}
+
+.container_logo3 a {
+    padding: 43px 46px 42px 0;
+}
+
+.container_logo3 img {
+    padding: 37px 31px 37px 26px;
+}
+
+
+/* Меню конец */
+  
