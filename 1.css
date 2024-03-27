@@ -36,12 +36,13 @@ select{
 
 
 .container {
-    max-width: 1440px;
+
     margin: 0 auto;
 }
 
 .menu {
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
     text-transform: uppercase;
@@ -82,7 +83,6 @@ select{
 .container_logo3 img {
     padding: calc(2.1vw + 2.056px) calc(1.8vw + 1.432px) calc(2.1vw + 2.056px) calc(1.5vw + 0.464px);  /*37px 31px 37px 26px*/
 }
-
 
 /* Меню конец */
   
