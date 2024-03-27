@@ -134,12 +134,17 @@ color: #AAAAAA;
 }
 
 .img img {
-    max-width: 100%; 
+    
+    max-width: calc(23.5vw + 192.864px); /*588   calc(3.3vw + 34.272px)*/
     height: auto; 
 }
 .img p {
     margin-top: calc(0.6vw + -0.752px); /*10px*/
-    text-align: left; 
+font-size: calc(1.4vw + 0.152px);
+font-weight: 400;
+line-height: 121%;
+
+
 }
 
   /* Section2 End */
