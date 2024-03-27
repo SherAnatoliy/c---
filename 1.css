@@ -7,7 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 section{
-    padding: 0  calc(3.2vw + 3.24px);
+    padding: 0  calc(3.2vw + 3.24px) 0 calc(3.2vw + 3.24px);
 }
 button {
     border: 0;
@@ -77,7 +77,7 @@ select{
 }
 
 .container_logo3 a {
-    padding: calc(2.5vw + 1.336px) calc(3.4vw + -1.792px) calc(2.4vw + 1.68px) 0;   /*43px 46px 42px 0*/
+    padding: calc(2.5vw + 1.336px) calc(3.4vw + -1.792px) calc(2.4vw + 1.68px) 0;   /*43px 46px 42px 0*/ /**/
 }
 
 .container_logo3 img {
@@ -85,4 +85,42 @@ select{
 }
 
 /* Меню конец */
-  
+  /* Section1 Start */
+  .section1 img{
+    margin-top: calc(2.8vw + 1.96px);
+    width: calc(100vw - calc(6.3vw + 5.824px));
+    /* width: calc(92.2vw + -0.228px); */
+  }
+  .Start2_text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    margin-top: calc(4.6vw + 3.392px);   /*80px*/
+    gap: calc(7.7vw + 6.976px); /*136px*/
+}
+.Start2_text_left{
+    width: calc(19.9vw + 20.344px); /*355px*/
+height: calc(9.8vw + 10.032px); /*174px*/
+font-size: calc(2.7vw + 2.304px); /*48px*/
+font-weight: 400;
+line-height: 120%;
+
+
+
+
+}
+.Start2_text_right{
+    width: calc(31.9vw + 32.744px);  /*569px*/
+height: calc(9vw + 8.128px);  /*160px*/
+font-size: calc(1.4vw + 1.152px); /*24px*/
+font-weight: 400;
+line-height: 166%;
+color: #AAAAAA;
+
+
+
+
+}
+  /* Section1 End */
