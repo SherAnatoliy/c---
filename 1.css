@@ -52,18 +52,18 @@ select{
 .menu a {
     text-decoration: none;
     color: black;
-    font-size: 12px; /*12px*/
+    font-size: calc(0.2vw + 9.312px); /*12px*/
     font-weight: 400;
     line-height: 120%;
 }
 
 .container_logo {
-    padding: 25px 0 25px 120px;
+    padding: calc(1.4vw + 0.808px) 0 calc(1.4vw + 0.808px) calc(6.8vw + 5.76px); /*25px 0 25px 120px */
 }
 
 .container_link {
     display: flex;
-    gap: 100px;
+    gap: calc(5.7vw + 4.576px); /*100px*/
 }
 
 .container_logo3 {
@@ -72,15 +72,15 @@ select{
 }
 
 .container_logo3_1 img {
-    padding: 38px 0 38px 20px;
+    padding: calc(2.2vw + 1.712px) 0 calc(2.2vw + 1.712px) calc(1.2vw + -0.16px);  /*38px 0 38px 20px*/
 }
 
 .container_logo3 a {
-    padding: 43px 46px 42px 0;
+    padding: calc(2.5vw + 1.336px) calc(3.4vw + -1.792px) calc(2.4vw + 1.68px) 0;   /*43px 46px 42px 0*/
 }
 
 .container_logo3 img {
-    padding: 37px 31px 37px 26px;
+    padding: calc(2.1vw + 2.056px) calc(1.8vw + 1.432px) calc(2.1vw + 2.056px) calc(1.5vw + 0.464px);  /*37px 31px 37px 26px*/
 }
 
 
