@@ -255,10 +255,15 @@ input[type="radio"]:checked + .radio-label {
     background-color: #46856E;
     
 }
+@media(max-width: 500px){
+    .radio-buttons{
+        display: none;
+    }   
+}
 /* Section4 End */
 
 
-/* Section Start */
+/* Section5 Start */
 .section5{
     background-image: url(/IMG/экран\ 6/Frametv.png), url(/IMG/экран\ 6/Frameql.png), url(/IMG/экран\ 6/Frameqq.png);
     background-repeat: no-repeat;
@@ -322,4 +327,78 @@ color: #AAAAAA;
 }
 
 
-/* Section End */
+/* Section5 End */
+
+
+
+/* Section6 Start */
+
+.section6 {
+        display: flex;
+        background-image: url(../IMG/экран\ 7/Rectanglemain.png);
+        background-size:  calc(75.1vw + 77.984px) calc(44.9vw + 46.016px)  ; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        margin-top: calc(13.5vw + 12.864px); /*240px*/
+        background-clip: content-box;
+        
+        
+}
+
+.section6_main {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ margin: calc(6.8vw + 5,76px) calc(2.7vw + 2.304px); /*120px 48px*/
+}
+.section6_info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: calc(9.8vw + 9.688px); /*175px*/
+    margin-top: calc(7vw + 6.728px); /*125px*/
+    text-align: center;
+}
+
+
+.section6_info p {
+    font-size: calc(1.4vw + 1.152px);  /*24px*/
+    line-height: 133%; /*32px*/
+    text-align: left;
+    margin-top: calc(0.4vw + 0.28px); /*7px*/
+    width: calc(12.7vw + 12.304px); /*226px*/
+    
+}
+.section6_info img{
+    display: flex;
+    margin-left: calc(0.6vw + -0.752px);        /*10px*/
+}
+
+.section6_info2{
+    display: flex;
+    margin: calc(2.2vw + 1.361px) calc(9.4vw + 8.752px) calc(0.6vw + -0.401px) calc(10.4vw + 10.28px); /*39.02px 166px 8.98px 185px*/
+    margin-bottom: calc(7.4vw +  6.352px); /*130px*/
+    font-size: calc(1vw + -0.128px); /*16px*/
+    line-height: 76%; /*12px*/
+    color: #FFFFFF;
+}
+.s6_2, .s6_3{
+    margin-top: calc(1.8vw + 0.432px) ; /*30px*/
+    
+}
+.s6_img1{
+    width: calc(19.7vw + 19.376px); /*350px*/
+   height: calc(1.5vw + 1.464px); /*27px*/
+
+}
+.s6_img{
+    margin-top: calc(0.5vw + -0.064px); /*8px*/ 
+    width: calc(5.7vw + 4.576px); /*100px*/
+    height: calc(1.8vw + 1.088px); /*32px*/
+}
+
+/* Section6 End */
+
+/* Section7 Start */
+
+/* Section7 End */
