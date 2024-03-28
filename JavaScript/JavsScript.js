@@ -1,5 +1,11 @@
+
+
 let slideIndex = 0;
 showSlide(slideIndex);
+
+
+
+
 
 function nextSlide() {
     showSlide(slideIndex += 1);
@@ -29,3 +35,36 @@ function showSlide(n) {
         radios[i].checked = (i === slideIndex);
     }
 }
+
+
+
+
+
+function showSlides() {
+    let slides = document.getElementsByClassName("slide2");
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.transform = "translateX(-" + slideIndex * 100 + "%)";
+    }
+}
+
+function prevSlide() {
+    slideIndex--;
+    if (slideIndex < 0) {
+        slideIndex = document.getElementsByClassName("slide2").length - 1;
+    }
+    showSlides();
+}
+
+function nextSlide() {
+    slideIndex++;
+    if (slideIndex >= document.getElementsByClassName("slide2").length) {
+        slideIndex = 0;
+    }
+    showSlides();
+}
+
+
+
+
+
+

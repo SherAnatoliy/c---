@@ -481,3 +481,62 @@ color: #AAAAAA;
 
 
 /* Section7 End */
+/* Section8 Start */
+
+
+
+
+.slider-container2 {
+    margin-top: calc(16.2vw + 16.512px); /*288px*/
+    position: relative;
+   width: calc(100vw - calc(6.3vw + 5.824px));
+    
+    margin: auto;
+    margin-top: calc(10.7vw + 9.904px); /*190px*/
+    
+}
+
+.slider2 {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide2 {
+    flex: 0 0 auto;
+    width: 100%;
+    transition: transform 0.5s ease;
+    transform: translateX(0);
+}
+
+.slide2 img {
+    height: calc(41.3vw + 42.496px);  /*736px*/
+    width: 100%;
+    object-fit: cover;
+
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: calc(0.6vw + -0.752px); /*10px*/
+    font-size: calc(2.4vw + 1.68px) ; /*42px*/
+
+}
+
+button.prev {
+    left:0;
+}
+
+button.next {
+    right:0;
+}
+
+
+
+
+/* Section8 End */
