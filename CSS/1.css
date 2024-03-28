@@ -579,10 +579,10 @@ line-height: 500%;
 
 
 .footer_main{
-    padding: calc(5.4vw + 5.608px) calc(6.8vw + 5.76px) calc(2.9vw + 2.616px) calc(6.8vw + 5.76px); /*97px 120px 51px 120px*/
+    padding: calc(5.4vw + 5.608px) calc(6.8vw + 5.76px) calc(2.9vw + 2.616px) calc(6.8vw + 5.76px) ; /*97px 120 51px 120*/
     display: flex;
-    text-align: center;
-    gap: calc(3.9vw + 3.144px); /*69px*/
+    
+    gap: 10%; /*69px*/
     
 }
 .footer_img{
@@ -635,7 +635,11 @@ height: calc(26.4vw + 27.48px); /*471*/
 
 }
 .footer_img_input{
+    
     margin-top: calc(1vw + 0.872px); /*17*/
+}
+.footer_img_input a{
+    text-decoration: none;
 }
 
 .footer_last{
@@ -669,17 +673,22 @@ text-align: left;
 
 }
 .footer_last_select{
-margin: calc(1vw + -0.126px) 0 calc(3.2vw + 2.24px) calc(12.6vw +12.922px); /*16 0 56 224*/
+display: flex; 
+text-align: center;
+margin-top: calc(1vw + -0.126px);
+margin-left: calc(12.6vw + 11.992px); /*226*/
+
 }
 .footer_last_select select{
     
+
     width: calc(5.8vw + 5.888px); /*104*/
    height: calc(1.2vw + 0.84px);/*21*/
 background-color: transparent;
 }
 .footer_Input {
     position: absolute; 
-    left: calc(-2.8vw + -2.92px);  /*-50*/
+    left: calc(-2.9vw + -1.616px);  /*-50*/
     top: calc(13.7vw + 13.176px);  /*243*/
     transform: translateY(-50%); 
     
@@ -705,6 +714,7 @@ font-size: calc(0.6vw + 0.248px); /*11*/
 line-height: calc(08vw + - 0.402px); /*12.89*/
 color: #FFFFFF80;
 width: calc(20.7vw + 20.904px); /*369*/
+margin-top: calc(3.2vw + 2.24px);
 
 
 }
