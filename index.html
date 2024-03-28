@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./1.css">
+    <link rel="stylesheet" href="./CSS/1.css">
     <link rel="stylesheet" href="./fonts/stylesheet.css">
 </head>
 <body>
@@ -107,5 +107,39 @@
         </div>
         </section>
         <!-- Section3 End -->
+         
+          <!-- Section4 Start -->
+          <section class="section4">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide"><img src="./IMG/экран 5/Rectangle.png" alt="Slide 1"></div>
+                    <div class="slide"><img src="./IMG/экран 5/2.jpg" alt="Slide 2"></div>
+                    <div class="slide"><img src="./IMG/экран 5/3.png" alt="Slide 3"></div>
+                </div>
+                <!-- <div class="radio-buttons">
+                    <input type="radio" name="slider-radio" id="radio1" onclick="currentSlide(1)" checked>
+                    <input type="radio" name="slider-radio" id="radio2" onclick="currentSlide(2)">
+                    <input type="radio" name="slider-radio" id="radio3" onclick="currentSlide(3)">
+                </div> -->
+
+                <div class="radio-buttons">
+                    <input type="radio" name="slider-radio" id="radio1" onclick="currentSlide(1)" checked>
+                    <label for="radio1" class="radio-label"></label>
+                    
+                    <input type="radio" name="slider-radio" id="radio2" onclick="currentSlide(2)">
+                    <label for="radio2" class="radio-label"></label>
+                    
+                    <input type="radio" name="slider-radio" id="radio3" onclick="currentSlide(3)">
+                    <label for="radio3" class="radio-label"></label>
+                </div>
+
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+
+          </section>
+          <!-- Section4 End -->
+          
+          <script src="./JavaScript/JavsScript.js"></script>
 </body>
 </html>
