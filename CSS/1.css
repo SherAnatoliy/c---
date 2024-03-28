@@ -515,28 +515,60 @@ color: #AAAAAA;
 
 }
 
-button.prev, button.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: transparent;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: calc(0.6vw + -0.752px); /*10px*/
-    font-size: calc(2.4vw + 1.68px) ; /*42px*/
-
-}
-
-button.prev {
-    left:0;
-}
-
-button.next {
-    right:0;
-}
-
-
-
-
 /* Section8 End */
+/* Section9 Start */
+.section9{ 
+ margin:  calc(16.1vw + 15.856px) calc(3.6vw + 3.52px) calc(4.5vw + 3.736px) calc(3.6vw + 3.52px); /*286px 64px 79px 64px*/
+}
+.section9_main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color:  #F2F2F2;  
+}
+.section9_main h3{ 
+    margin-top: calc(3.6vw + 2.52px); /*63px;*/
+font-size: calc(2.8vw + 2.754x); /*46px*/
+line-height: 110%; /* 50.6px*/
+
+}
+.section9_main img{
+    align-items: center;
+    width: calc(44.9vw + 46.016px);/*800px*/
+height: calc(13.2 + 13.24px);/*235px*/
+
+
+}
+ 
+.section9_main button{
+    width: calc(8.2vw + 7.568px); /*146px*/
+height: calc(2.9vw + 1.616); /* 50px;*/
+background-color:#46856E;
+color: #FFFFFF;
+
+
+
+}
+.section9_button_text{
+font-size: calc(0.7vw + -0.096px); /* 12px */
+line-height: 500%;
+
+
+}
+
+.section9_a{
+    margin: calc(1.5vw + 0.464px) 0 ; /*26px 0*/
+    width: calc(8.2vw + 7.568px); /* 146px;*/
+    font-size: calc(0.7vw + -0.096px); /*12px*/
+    line-height: 117%; /* 14.06px*/
+    
+   
+    
+}
+.section9_a a{
+    text-decoration: none;
+    color: #AAAAAA;
+
+}
+/* Section9 End */
