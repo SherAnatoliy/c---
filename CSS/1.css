@@ -461,10 +461,8 @@ color: #AAAAAA;
    width: calc(100vw - calc(6.3vw + 5.824px));
     
     margin: auto;
-    margin-top: calc(10.7vw + 9.904px); /*190px*/
-    
+    margin-top: calc(10.7vw + 9.904px); /*190px*/  
 }
-
 .slider2 {
     display: flex;
     overflow: hidden;
@@ -557,8 +555,7 @@ line-height: 500%;
         font-size: 10px;
     }
     .close{
-        text-align: right;
-    
+        text-align: right; 
     }
     .send{
         border-radius: 4px;
@@ -569,8 +566,6 @@ line-height: 500%;
         color: white;
         border: 2px solid #46856E;
     }
-
-    
     @keyframes popUpAnime {
         0% {
             transform: scale(0);
@@ -590,9 +585,6 @@ line-height: 500%;
         /* End*/
 /* Section9 End */
 /* Footer Start */
-
-
-
 .footer_main{
     padding: calc(5.4vw + 5.608px) calc(6.8vw + 5.76px) calc(2.9vw + 2.616px) calc(6.8vw + 5.76px) ; /*97px 120 51px 120*/
     display: flex;
@@ -633,8 +625,6 @@ height: calc(26.4vw + 27.48px); /*471*/
     display: flex;
     margin-top: calc(1vw + 0.872px); /*17*/
     flex-direction: column;
-   
-
 }
 
 .footer_text2 .footerA{
@@ -660,8 +650,7 @@ height: calc(26.4vw + 27.48px); /*471*/
    display: flex;
    flex-direction: column;
     margin-right: calc(3.1vw + 2.584px); /*55*/
-    position: relative;
-    
+    position: relative;  
 }
 
 .footer_last_text2{
@@ -675,7 +664,6 @@ text-align: left;
 }
 .footer_last_input_text {
     display: flex;
-    
     height: calc(3vw + 2.928px); /*54*/
     justify-content: left; 
     margin-top: calc(1.8vw + 0.432px); /*30*/
@@ -684,7 +672,6 @@ text-align: left;
     width:  calc(18.4vw + 17.88px); /*327*/
     background-color: transparent;
     border: 1px solid #FFFFFF66
-
 }
 .footer_last_select{
 display: flex; 
@@ -694,8 +681,6 @@ margin-left: calc(12.6vw + 11.992px); /*226*/
 
 }
 .footer_last_select select{
-    
-
     width: calc(5.8vw + 5.888px); /*104*/
    height: calc(1.2vw + 0.84px);/*21*/
 background-color: transparent;
@@ -705,9 +690,6 @@ background-color: transparent;
     left: calc(-2.9vw + -1.616px);  /*-50*/
     top: calc(13.7vw + 13.176px);  /*243*/
     transform: translateY(-50%); 
-    
-   
-
 }
 .footer_Input input{
     width: calc(1.6vw + 1.12px); /*28*/
