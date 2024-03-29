@@ -55,11 +55,11 @@ document.addEventListener( 'DOMContentLoaded', function() {
 // End
 
 function checkConfirm(){
-    let confirm = document.getElementsByName("confirm")[0].checked
+    let confirm1 = document.getElementsByName("confirm")[0].checked
     let sendBtn = document.getElementsByName("sendBtn")[0]
 
-    console.log(confirm)
-    if (confirm == true) {
+    console.log(confirm1)
+    if (confirm1 == true) {
        
         sendBtn.removeAttribute("disabled") 
     } else {

@@ -732,9 +732,13 @@ margin-top: calc(3.2vw + 2.24px);
 
 
 }
+.footer_last_button{
+    text-align: right;
+}
+.footer_last_button button {
 
-.footer_last_button button{
-   margin: calc(3.3vw + 2.896px) 0 calc(2.5vw + 2.336px) calc(14.6px + 15.048px); /*58 0 44 261*/
+    margin: calc(3.3vw + 2.896px) calc(2.8vw +  1.96px) calc(2.5vw + 2.336px)  0  ;/*58 0 44 261 calc(14.6px + 15.048px)*/
+    
    font-size: calc(0.7vw + -0.096px); /*12*/
    line-height: calc(3.4vw + 2.208px); /*60*/
     background-color:#2B2B2B;
@@ -744,6 +748,11 @@ height: calc(3.4vw + 2.208px); /*60*/
 text-transform: uppercase;
 
     border: 0px;
+}
+
+.sendBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 @media(max-width: 1184px){
     .footer_All_text{
