@@ -285,12 +285,12 @@ input[type="radio"]:checked + .radio-label {
 
 /* Section5 Start */
 .section5 {
-    background-image: url(/IMG/экран\ 6/Frametv.png), url(/IMG/экран\ 6/Frameql.png), url(/IMG/экран\ 6/Frameqq.png);
+    background-image: url(../IMG/экран\ 6/Frametv.png ), url(../IMG/экран\ 6/Frameql.png), url(../IMG/экран\ 6/Frameqq.png);
     background-repeat: no-repeat;
     background-position: left calc(12.8vw + 12.96px) center , center center, right calc(16.6vw + 16.448px) center;
    
     background-size: calc(9.1vw + 8.784px) calc(6.8vw + 6.76px), calc(9.1vw + 8.784px) calc(6.8vw + 6.76px), 
-    calc(9.1vw + 8.784px) calc(6.8vw + 6.76px); /* 162px 121px*/
+    calc(9.1vw + 8.784px) calc(6.8vw + 6.76px); /*162px 121px*/
    
 }
 .section5_main {
