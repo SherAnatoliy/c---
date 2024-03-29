@@ -41,23 +41,27 @@ select {
 
 .menu {
     display: flex;
-    
     align-items: center;
     justify-content: space-between;
     text-transform: uppercase;
     border-bottom: 1px #E0E0E0 solid;
-    ;
+    height: 99px;
+    
 }
 
 .menu a {
+    display: flex;
     text-decoration: none;
     color: black;
     font-size: calc(0.2vw + 9.312px); /*12px*/
     line-height: 120%;
+    align-items: center;
 }
 
-.container_logo {
-    padding: calc(1.4vw + 0.808px) 0 calc(1.4vw + 0.808px) calc(6.8vw + 5.76px); /*25px 0 25px 120px */
+.IMGLayer2 {
+     /*25px 0 25px 120px */
+  padding-left:  calc(6.8vw + 5.76px);
+    
 }
 
 .container_link {
@@ -70,16 +74,32 @@ select {
     
 }
 
-.container_logo3_1 img {
-    padding: calc(2.2vw + 1.712px) 0 calc(2.2vw + 1.712px) calc(1.2vw + -0.16px);  /*38px 0 38px 20px*/
+.container_logo_img1 {
+     /*38px 0 38px 20px*/
+    margin-right: calc(0.6vw +  -0.752px);
 }
 
-.container_logo3 a {
-    padding: calc(2.5vw + 1.336px) calc(3.4vw + -1.792px) calc(2.4vw + 1.68px) 0;   /*43px 46px 42px 0*/ /**/
+.container_logo_Showrooms{
+       /*43px 46px 42px 0*/ /**/
+       margin-right: calc(2.6vw + 1.648px);
 }
 
-.container_logo3 img {
-    padding: calc(2.1vw + 2.056px) calc(1.8vw + 1.432px) calc(2.1vw + 2.056px) calc(1.5vw + 0.464px);  /*37px 31px 37px 26px*/
+.container_logo_img2 {
+      /*37px 31px 37px 26px*/
+      margin-right: calc(1.8vw + 1.088px);
+}
+@media(max-width: 385px){
+    .IMGLayer2{
+        padding-left: 5px;
+        margin-right: 10px;
+    }  
+    .container_logo3{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    .container_link{
+        display: inline-block  
+    }
 }
 
 /* Меню конец */
