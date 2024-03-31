@@ -514,13 +514,11 @@ line-height: 110%; /* 50.6px*/
 height: calc(13.2 + 13.24px);/*235px*/
 }
 .section9_button_text{
-width: calc(8.2vw + 7.568px); /*146px*/
-height: calc(2.9vw + 1.616); /*50px;*/
+/*width: calc(8.2vw + 7.568px); /*146px*/ width: calc(3.4vw + 82.208px);
+/*height: calc(2.9vw + 1.616); /*50px;*/ height: calc(1.4vw +  27.152px);
 background-color:#46856E;
 color: #FFFFFF;
-}
-.section9_button_text{
-font-size: calc(0.7vw + -0.096px); /* 12px */
+/*font-size: calc(0.7vw + -0.096px); /* 12px */ font-size: calc(0.3vw +  6.624px);
 line-height: 500%;
 }
 .section9_a{
@@ -533,6 +531,8 @@ line-height: 500%;
     text-decoration: none;
     color: #AAAAAA;
 }
+
+
 .popUpForm {
     /* background-color: rgba(0, 0, 0, 0.305); */
     background-color: rgba(0, 0, 0, 0.305);
