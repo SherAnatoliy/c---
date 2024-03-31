@@ -99,7 +99,7 @@ select {
   /* Section1 Start */
     .section1 img {
     margin-top: calc(2.8vw + 1.96px);
-    width: calc(100vw - calc(6.3vw + 5.824px));
+    max-width: calc(100vw - calc(6.3vw + 5.824px));
     height: calc(41.8vw + 43.088px);
     
     /* width: calc(92.2vw + -0.228px); */
@@ -162,20 +162,18 @@ color: #AAAAAA;
 font-size: calc(1.4vw + 0.152px);
 line-height: 121%;
 }
-@media(max-width: 966px){
+@media(max-width: 800px){
    
     .img p{
         text-align: center;
         font-size: 10px;
     }  
     .img img{
-       width: 100%;
-       height: 100%;
+        width: 100%;
+        height: 100%;
     }
     
 }
-
-
   /* Section2 End */
   /* Section3 Start */
   .section3_1 {
