@@ -163,13 +163,14 @@ font-size: calc(1.4vw + 0.152px);
 line-height: 121%;
 }
 @media(max-width: 966px){
+   
     .img p{
         text-align: center;
         font-size: 10px;
     }  
-    .section2_img{
-        width: auto;
-        height: auto;
+    .img img{
+       width: 100%;
+       height: 100%;
     }
     
 }
@@ -476,7 +477,6 @@ color: #AAAAAA;
     margin-top: calc(16.2vw + 16.512px); /*288px*/
     position: relative;
    width: calc(100vw - calc(6.3vw + 5.824px));
-   
     
     margin: auto;
     margin-top: calc(10.7vw + 9.904px); /*190px*/  
@@ -499,7 +499,6 @@ color: #AAAAAA;
     object-fit: cover;
 
 }
-
 
 /* Section8 End */
 /* Section9 Start */
