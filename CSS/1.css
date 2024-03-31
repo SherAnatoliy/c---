@@ -162,7 +162,17 @@ color: #AAAAAA;
 font-size: calc(1.4vw + 0.152px);
 line-height: 121%;
 }
-
+@media(max-width: 966px){
+    .img p{
+        text-align: center;
+        font-size: 10px;
+    }  
+    .img img{
+        width: 100%;
+       height: 50%;
+    }
+    
+}
 
 
   /* Section2 End */
