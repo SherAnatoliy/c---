@@ -44,12 +44,7 @@ function popUpForm () {
 function closePopUp(){
     popUpWrapper.style.display = "none";
 }
-
-
-document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide' );
-    splide.mount();
-  } );
+;
 
 
 // End
@@ -67,5 +62,18 @@ function checkConfirm(){
     }
 }
 
+let slideIndex2 = 0;
+const slides = document.querySelectorAll('.slide2');
 
+function showSlides2() {
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.transform = `translateX(-${slideIndex2 * 100}%)`;
+    }
+    slideIndex2++;
+    if (slideIndex2 >= slides.length) {
+        slideIndex2 = 0;
+    }
+}
+
+setInterval(showSlides2, 3000);
 
