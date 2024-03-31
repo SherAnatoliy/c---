@@ -194,7 +194,7 @@ color: #4A4A4A;
   .section3_1 img {
     margin-top: calc(7vw + 6.728px); /*125px*/
     width: calc(64.2vw + 65.94px);   /*1144.5px*/
-    height: calc(25.2vw + 25.64px);
+    height: 100%; 
   }
   
   /* Section3 End */
