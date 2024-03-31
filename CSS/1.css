@@ -162,7 +162,7 @@ color: #AAAAAA;
 font-size: calc(1.4vw + 0.152px);
 line-height: 121%;
 }
-@media(max-width: 800px){
+@media(max-width: 966px){
    
     .img p{
         text-align: center;
@@ -174,6 +174,8 @@ line-height: 121%;
     }
     
 }
+
+
   /* Section2 End */
   /* Section3 Start */
   .section3_1 {
