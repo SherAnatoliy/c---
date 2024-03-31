@@ -169,7 +169,7 @@ line-height: 121%;
         font-size: 10px;
     }  
     .img img{
-       width: 100%;
+        width: calc(23.5vw + 192.864px);
        height: calc(23.1vw + 23.584px);
     }
     
