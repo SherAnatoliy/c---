@@ -153,7 +153,7 @@ color: #AAAAAA;
     padding: calc(1.4vw + 1.152px); /*24px*/
 }
 .img img {
-    max-width: calc(23.5vw + 192.864px); /*588   calc(3.3vw + 34.272px)*/
+    width: calc(23.5vw + 192.864px); /*588   calc(3.3vw + 34.272px)*/
    height: 100%;
 }
 .img p {
@@ -168,6 +168,10 @@ line-height: 121%;
         text-align: center;
         font-size: 10px;
     }  
+    .img img{
+        width: 100%;
+    }
+    
 }
   /* Section2 End */
   /* Section3 Start */
@@ -289,7 +293,7 @@ input[type="radio"]:checked + .radio-label {
 
 /* Section5 Start */
 .section5 {
-    background-image: url(../IMG/экран\ 6/Frametv..WebP ), url(../IMG/экран\ 6/Frameql..WebP), url(../IMG/экран\ 6/Frameqq..WebP);
+    background-image: url(../IMG/экран\ 6/Frametv.WebP ), url(../IMG/экран\ 6/Frameql.WebP), url(../IMG/экран\ 6/Frameqq.WebP);
     background-repeat: no-repeat;
     background-position: left calc(12.8vw + 12.96px) center , center center, right calc(16.6vw + 16.448px) center;
    
@@ -343,7 +347,7 @@ color: #AAAAAA;
 /* Section6 Start */
 .section6 {
     display: flex;
-    background-image: url(../IMG/экран\ 7/Rectanglemain..WebP);
+    background-image: url(../IMG/экран\ 7/Rectanglemain.WebP);
     background-size:  100vw  calc(44.9vw + 46.016px)  ; 
     background-position: center; 
     background-repeat: no-repeat;
