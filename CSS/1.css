@@ -131,7 +131,7 @@ line-height: 166%;
 color: #AAAAAA;
 }
 
-/* @media(max-width: 450px){
+@media(max-width: 450px){
     .Start2_text{
         display: flex;
         flex-direction: column;
@@ -139,7 +139,7 @@ color: #AAAAAA;
        text-align: center;
        
     }
-} */
+}
   /* Section1 End */
   /* Section2 Start */
    .section2_img {
