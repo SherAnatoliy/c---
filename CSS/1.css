@@ -569,6 +569,9 @@ line-height: 500%;}
         /* End*/
 /* Section9 End */
 /* Footer Start */
+.Footer{
+    margin-bottom: 0;
+}
 .footer_main{
   padding: calc(5.4vw + 5.608px) calc(6.8vw + 5.76px) calc(2.9vw + 2.616px) calc(6.8vw + 5.76px) ; /*97px 120 51px 120*/
     display: flex;
