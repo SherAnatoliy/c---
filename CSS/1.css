@@ -154,7 +154,7 @@ color: #AAAAAA;
 }
 .img img {
     width: calc(23.5vw + 192.864px); /*588   calc(3.3vw + 34.272px)*/
-   height: calc(23.1vw + 23.584px);
+   height: 100%;
 }
 .img p {
     margin-top: calc(0.6vw + -0.752px); /*10px*/
