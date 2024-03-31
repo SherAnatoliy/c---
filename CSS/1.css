@@ -192,6 +192,9 @@ color: #4A4A4A;
     width: calc(64.2vw + 65.94px);   /*1144.5px*/
     height: 100%; 
   }
+  @media(max-width: 246px){
+    .section3_1 img{width: 100%;}
+  }
   /* Section3 End */
   /* Section4 Start */
   .slider-container {
