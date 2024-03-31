@@ -100,6 +100,7 @@ select {
     .section1 img {
     margin-top: calc(2.8vw + 1.96px);
     width: calc(100vw - calc(6.3vw + 5.824px));
+    height: auto;
     
     /* width: calc(92.2vw + -0.228px); */
   }
@@ -153,6 +154,7 @@ color: #AAAAAA;
 }
 .img img {
     max-width: calc(23.5vw + 192.864px); /*588   calc(3.3vw + 34.272px)*/
+   height: auto;
 }
 .img p {
     margin-top: calc(0.6vw + -0.752px); /*10px*/
@@ -192,6 +194,7 @@ color: #4A4A4A;
   .section3_1 img {
     margin-top: calc(7vw + 6.728px); /*125px*/
     width: calc(64.2vw + 65.94px);   /*1144.5px*/
+    height: auto;
   }
   
   /* Section3 End */
@@ -286,7 +289,7 @@ input[type="radio"]:checked + .radio-label {
 
 /* Section5 Start */
 .section5 {
-    background-image: url(../IMG/экран\ 6/Frametv.png ), url(../IMG/экран\ 6/Frameql.png), url(../IMG/экран\ 6/Frameqq.png);
+    background-image: url(../IMG/экран\ 6/Frametv..WebP ), url(../IMG/экран\ 6/Frameql..WebP), url(../IMG/экран\ 6/Frameqq..WebP);
     background-repeat: no-repeat;
     background-position: left calc(12.8vw + 12.96px) center , center center, right calc(16.6vw + 16.448px) center;
    
@@ -340,7 +343,7 @@ color: #AAAAAA;
 /* Section6 Start */
 .section6 {
     display: flex;
-    background-image: url(../IMG/экран\ 7/Rectanglemain.png);
+    background-image: url(../IMG/экран\ 7/Rectanglemain..WebP);
     background-size:  100vw  calc(44.9vw + 46.016px)  ; 
     background-position: center; 
     background-repeat: no-repeat;
