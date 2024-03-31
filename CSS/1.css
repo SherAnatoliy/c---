@@ -223,7 +223,7 @@ color: #4A4A4A;
 
 .slide img {
     height: calc(41.3vw + 42.496px);  /*736px*/
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
 
 }
