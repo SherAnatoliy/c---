@@ -152,7 +152,7 @@ color: #AAAAAA;
     padding: calc(1.4vw + 1.152px); /*24px*/
 }
 .img img {
-    width: 588px; /*  calc(23.5vw + 192.864px) */
+    width: calc(23.5vw + 192.864px); /* 588px calc(23.5vw + 192.864px) */
    height: calc(23.1vw + 23.584px); /*449 calc(23.1vw + 23.584px)*/
 }
 .img p {
@@ -161,12 +161,13 @@ color: #AAAAAA;
 font-size: calc(1.4vw + 0.152px);
 line-height: 121%;
 }
-@media(max-width: 966px){
+@media(max-width: 282px){
     .img p{
         text-align: center;
         font-size: 10px;
     }  
     .img img{
+        margin: 0;
         width: 100%;
         height: auto;
     }
