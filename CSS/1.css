@@ -153,7 +153,7 @@ color: #AAAAAA;
     padding: calc(1.4vw + 1.152px); /*24px*/
 }
 .img img {
-    width: 588; /*  calc(23.5vw + 192.864px) */
+    width: 588px; /*  calc(23.5vw + 192.864px) */
    height: calc(23.1vw + 23.584px);
 }
 .img p {
@@ -167,7 +167,7 @@ line-height: 121%;
         text-align: center;
         font-size: 10px;
     }  
-    .section2_img{
+    .img img{
         width: 100%;
         height: auto;
     }
