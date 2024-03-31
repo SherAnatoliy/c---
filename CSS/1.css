@@ -477,6 +477,7 @@ color: #AAAAAA;
     margin-top: calc(16.2vw + 16.512px); /*288px*/
     position: relative;
    width: calc(100vw - calc(6.3vw + 5.824px));
+   height: 100%;
     
     margin: auto;
     margin-top: calc(10.7vw + 9.904px); /*190px*/  
@@ -499,6 +500,7 @@ color: #AAAAAA;
     object-fit: cover;
 
 }
+
 
 /* Section8 End */
 /* Section9 Start */
