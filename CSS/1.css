@@ -456,6 +456,10 @@ line-height: 150%; /*24px*/
 color: #AAAAAA;
 }
     @media(max-width: 600px){
+        .section7_left img{ 
+            width: 100%;
+            height: 100%;
+        }
         .section7_right h3{
             font-size: 10px;
             margin: 0 1px 0 1px;
