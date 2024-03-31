@@ -100,7 +100,7 @@ select {
     .section1 img {
     margin-top: calc(2.8vw + 1.96px);
     width: calc(100vw - calc(6.3vw + 5.824px));
-    height: 100%;
+    height: auto;
     
     /* width: calc(92.2vw + -0.228px); */
   }
