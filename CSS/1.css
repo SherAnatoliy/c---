@@ -133,7 +133,7 @@ li.container_logo3_2 {
     width: calc(1vw + 7.528px);
     height: calc(1vw + 7.528px);
 }
-/* @media(max-width: 500px) {
+@media(max-width: 500px) {
 
     .header__burger-btn{
         display: block;
@@ -161,7 +161,7 @@ li.container_logo3_2 {
     .header.open .menu{
         transform: translateX(100%);
     } 
-} */
+}
 
 
 /* Меню конец */
