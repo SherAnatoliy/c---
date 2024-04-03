@@ -758,13 +758,6 @@ text-transform: uppercase;
                      .footer_text_left{ display: flex; justify-content: center; align-items: center;  }
                      .footer_text_right{display: flex; justify-content: center; align-items: center; margin-top: 5px; }  }
                      .footer_img_input{display: flex; justify-content:center;}
-                      
-                    
-            
-            /* @media(max-width: 430px){
-                .footer_All_text{display: none;}   
-
-            } */
-
+                      div.footer_text{margin-right: 20px;}
 
  
