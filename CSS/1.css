@@ -138,6 +138,9 @@ li.container_logo3_2 {
     .header__burger-btn{
         display: block;
     }
+    .header__burger-btn{
+        position: fixed;
+    }
     .menu{
         position: fixed;
         left: -100vw;
